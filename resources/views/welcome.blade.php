@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Train One:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ruthie:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -16,9 +17,15 @@
         </style>
 
         <style>
+{{--            {{ dd(public_path('fonts\The_Juke_Box-FFP.ttf'))  }}--}}
+            @font-face {
+                font-family: jukeboxxx;
+                src: url('./public/fonts/gabriele-br.TTF');
+            }
             body header h1{
                 color: black;
                 font-size: xxx-large;
+                font-family: "Train One";
             }
             body {
 
@@ -33,7 +40,7 @@
 
     <body>
     <header>
-        <h1 class="text-center">LAMA PALOOZA</h1>
+        <h1 class="text-center">[LAMA PALOOZA]</h1>
     </header>
 
     <section>
